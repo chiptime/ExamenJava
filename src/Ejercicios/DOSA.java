@@ -14,15 +14,15 @@ public class DOSA {
     public static FP alumnoFP1 = new FP("David","Loarte", 21,"Su casa","España",'H',5);
 
     public static void imprimirAlumnos(Alumno alumno){
-        System.out.print(alumno.getNombre()+" |" + alumno.getApellidos()+ " |" + alumno.getEdad() + " |" + alumno.getDomicilio() + " |" + alumno.getNacionalidad());
+        System.out.print(alumno.getNombre()+"\t" + alumno.getApellidos()+ "\t|" + alumno.getEdad() + "\t|" + alumno.getDomicilio() + "\t|" + alumno.getNacionalidad());
         System.out.println();
     }
     public static void imprimirAlumnosESO(ESO alumno){
-        System.out.print(alumno.getNombre()+" |" + alumno.getApellidos()+ " |" + alumno.getEdad() + " |" + alumno.getDomicilio() + " |" + alumno.getNacionalidad() + " |" + alumno.getCentro() + " |" + alumno.isRepetidor());
+        System.out.print(alumno.getNombre()+"\t" + alumno.getApellidos()+ "\t|" + alumno.getEdad() + "\t|" + alumno.getDomicilio() + "\t|" + alumno.getNacionalidad() + "\t|" + alumno.getCentro() + "\t|" + alumno.isRepetidor());
         System.out.println();
     }
     public static void imprimirAlumnosFP(FP alumno){
-        System.out.print(alumno.getNombre()+" |" + alumno.getApellidos()+ " |" + alumno.getEdad() + " |" + alumno.getDomicilio() + " |" + alumno.getNacionalidad() + " |" + alumno.getNotaMediaAnterior() + " |" + alumno.getSexo() );
+        System.out.print(alumno.getNombre()+"\t" + alumno.getApellidos()+ "\t" + alumno.getEdad() + "\t|" + alumno.getDomicilio() + "\t|" + alumno.getNacionalidad() + "\t|" + alumno.getNotaMediaAnterior() + "\t|" + alumno.getSexo() );
         System.out.println();
     }
 }

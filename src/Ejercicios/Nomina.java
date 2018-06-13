@@ -29,7 +29,7 @@ public class Nomina {
         valorNeto = valorBruto * hacienda;
     }
     public void imprimir(){
-        System.out.println("Tu nombre es: \n" + nombre + "\n");
-        System.out.println("El valor neto de tu nomina es: \n" + valorNeto + "€");
+        System.out.println("Tu nombre es: \n" + Colores.CYAN + nombre + Colores.ANSI_RESET + "\n");
+        System.out.println("El valor neto de tu nomina es: \n" + Colores.CYAN + valorNeto + "€" + Colores.ANSI_RESET );
     }
 }

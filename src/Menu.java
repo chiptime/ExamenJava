@@ -1,3 +1,4 @@
+import Ejercicios.Colores;
 import Ejercicios.DOSA;
 import Ejercicios.Nomina;
 
@@ -15,12 +16,15 @@ public class Menu {
         boolean terminar = false;
 
         do {
-            System.out.println("\n" +
-                    "Elige una opcion: \n\n"
-                    + "Ejercicio 1\n"
-                    + "Ejercicio 2\n"
-                    + "Ejercicio 3\n"
-                    + "Salir\n"
+            System.out.println("\n"
+                    + "Elige una opcion: \n\n"
+                    + Colores.GREEN
+                    + "1.Ejercicio 1\n"
+                    + "2.Ejercicio 2\n"
+                    + "3.Ejercicio 3\n"
+                    + Colores.RED
+                    + "4.Salir\n"
+                    + Colores.ANSI_RESET
             );
 
             int opcion = eleccion.nextInt();
